@@ -42,7 +42,7 @@ test_input = ["987654321111111", "811111111111119" ,"234234234234278", "81818191
 
 print(get_max_joltage(test_input))
 
-filename = "Task_Input.txt"
+filename = "AoC_3_Task_Input.txt"
 
 task_input = read_input(filename)
 

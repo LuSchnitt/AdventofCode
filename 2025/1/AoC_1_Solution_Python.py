@@ -28,7 +28,7 @@ def password_cracker_AoC1_2(start  : int = 50, sequence : list = None) -> int:
                 z_counter += 1
     return z_counter
                 
-def read_instruction_from_file(file_name : str = "Task_input.txt") -> list:
+def read_instruction_from_file(file_name : str = "AoC_1_Task_Input.txt") -> list:
     sequence_list = []
     file = open("./" + file_name, 'rt')
     for line in file:

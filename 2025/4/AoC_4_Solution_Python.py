@@ -45,7 +45,7 @@ def find_movable_rolls_1(matrix : np.ndarray) -> int:
         
     return counter#, indexes 
 
-filename_test = "AoC4_Test_Input.txt"
+filename_test = "AoC_4_Test_Input.txt"
 
 test_input = read_input(filename_test)
 
@@ -53,7 +53,7 @@ test_input = read_input(filename_test)
 
 #print(find_movable_rolls_1(test_input))
 
-filename_task = "AoC4_Task_Input.txt"
+filename_task = "AoC_4_Task_Input.txt"
 
 task_input = read_input(filename_task)
 
